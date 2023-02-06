@@ -14,7 +14,7 @@ public class Main {
         "Maybe you can also go outside with your water"
     };
     public static Random random = new Random();
-    public static long threshold = 3 * 60 * 60 * 1000; // 3 hours
+    public static long threshold = 1 * 60 * 60 * 1000; // 1 hour
     public static long currentTime = 0;
     public static void main(String[] args) throws Exception {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
